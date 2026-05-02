@@ -84,7 +84,6 @@ public class Manacher {
         return j - i - 1;
     }
 
-    // for test
     public static String getRandomString(int possibilities, int size) {
         char[] ans = new char[(int) (Math.random() * size) + 1];
         for (int i = 0; i < ans.length; i++) {
